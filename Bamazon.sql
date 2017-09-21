@@ -22,7 +22,7 @@ CREATE TABLE products(
 	stock_quantity INTEGER(15)NULL,
 	PRIMARY KEY (item_id);
 
-)
+);
 
 INSERT INTO products(product_name,department_name,price,stock_quantity)
 VALUES("Marvel Legends Captain America's Shield","Toys & Games",99.99,10);
